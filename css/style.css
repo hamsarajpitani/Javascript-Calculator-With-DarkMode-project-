@@ -143,8 +143,9 @@ body {
     background-color: var(--button-color-hover);
 }
 .cal-fotter div:focus{
-   Outline :none;
+   outline:0 !important;
 }
+
 
 .cal-fotter div.special:hover {
     background-color: var(--special-hover);
