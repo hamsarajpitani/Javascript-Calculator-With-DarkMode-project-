@@ -48,7 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 48.6vw;
+    height: 100vh;
     background-color: var(--primary_color);
 }
 
