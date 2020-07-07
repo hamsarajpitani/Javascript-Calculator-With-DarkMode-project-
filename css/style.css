@@ -56,8 +56,8 @@ body {
     display: grid;
     grid-template-rows: 10% 25% auto;
     background-color: var(--fotter-color);
-    height: 85%;
-    width: 85%;
+    height: 36.25rem;
+    width: 22.5rem;
     border-radius: 6px;
     box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.4);
 
@@ -235,3 +235,16 @@ input:checked+.slider:before {
 #output{
     font-size: 2.5em;
 }
+
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .calculator {
+        height: 85%;
+        width: 85%;
+        border-radius: 6px;
+        box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    
+    }
+  }
