@@ -142,7 +142,9 @@ body {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
     background-color: var(--button-color-hover);
 }
-
+.cal-fotter div:focus{
+   Outline :none;
+}
 
 .cal-fotter div.special:hover {
     background-color: var(--special-hover);
