@@ -142,9 +142,6 @@ body {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
     background-color: var(--button-color-hover);
 }
-.cal-fotter div:focus{
-   outline:0 !important;
-}
 
 
 .cal-fotter div.special:hover {
@@ -251,3 +248,7 @@ input:checked+.slider:before {
     
     }
   }
+
+.navbar{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+}
